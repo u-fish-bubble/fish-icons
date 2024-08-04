@@ -13,5 +13,5 @@ export interface IconProps {
   className?: string;
   style?: React.CSSProperties;
   children?: React.ReactNode;
-  onClick?: () => void;
+  onClick?: (e: any) => void;
 }
